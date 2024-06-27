@@ -7,10 +7,7 @@ inputs:
     required: true
 runs:
   using: "composite"
-  steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      
+  steps: 
     - name: "Great the user"
       run: echo "Hello ${{ inputs.name_input }}."
       shell: bash

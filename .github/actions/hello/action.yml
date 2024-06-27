@@ -11,4 +11,7 @@ runs:
     - name: "Great the user"
       run: echo "Hello ${{ inputs.name_input }}."
       shell: bash
+
+    - name: Affichage du path dans checkout action
+      run: pwd; 
       

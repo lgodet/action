@@ -1,13 +1,13 @@
 name: "Custom action"
 description: "Greet someone"   
 inputs: 
-  name:
+  name_input:
     description: "the name"
     required: true
 runs:
   using: "composite"
   steps:
     - name: "Great the user"
-      run: echo "Hello ${{ inputs.name }}."
+      run: echo "Hello ${{ inputs.name_input }}."
       shell: bash
       

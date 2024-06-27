@@ -13,5 +13,6 @@ runs:
       shell: bash
 
     - name: Affichage du path dans checkout action
-      run: pwd; 
+      run: pwd
+      shell: bash
       
